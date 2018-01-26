@@ -1,0 +1,8 @@
+1.  Just one vocabulary.
+2.  Get information about resource utilization to calculate the specific time.
+3.  Because a pointer is a must here and by value, the function only pass a copy of values.
+4.  Let the file pointer go through the opened file until it reaches EOF. And in the process, if an alphabetical character was read, let it built into a string.
+If the word in the file is too long, the while loop will move the file pointer to ignore. If a number character was read, another while loop will consume it and let the file point go where it should be.
+If nothing was read and index was bigger than zero, which means that a string had been built and it was time to check the spelling.  In all these process, some variable will be refreshedd properly.
+5.  It is hard to determine the format of proper string as input file has many rows.
+6.  The parameters of these functions are immutable for use.
