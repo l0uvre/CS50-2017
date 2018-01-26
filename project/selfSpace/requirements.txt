@@ -1,4 +1,7 @@
 Flask
 Flask-Session
 passlib
-Flask_SQLAlchemy
+Flask-SQLAlchemy
+Jinja2
+gunicorn
+Jinja2
