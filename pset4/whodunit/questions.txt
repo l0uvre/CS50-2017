@@ -1,0 +1,12 @@
+1.  A header file in C standard library allows programmer to specify exact-width integer types, together with the defined minimum and maximum allowable values for each type.
+2.  To apply for various data types in the world of Microsoft programming world, such as DWORD, BYTE, LONG and WORD.
+3.  8, 32, 32, 16, respectively.
+4.  0x42 0x4D, aka "B" and "M" in ASCII encoding.
+5.  bfsize is the size of the whole BMF file while bisize is the size of RGBTRIPLE plus the total size of Padding.
+6.  The bitmap is a top-down DIB and its origin is the upper-left corner.
+7.  Byte28 specifies the BMP’s color depth.
+8.  The user may input invalid filenames.
+9.  Because the size is the whole of BITMAPFILEHEADER, and a BMP file only include one BITMAPFILEHEADER block. 
+10. 3
+11. To change the offset of the file point to skip over padding
+12. SEEK_CUR is the current location of the file pointer.
