@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Record
+{% endblock %}
+
+{% block main %}
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <style>
+    h{
+        font-family: 'Sofia';font-size: 50px;
+    }
+    </style>
+    <h> Record: Save your thoughts</h>
+    </br>
+    </br>
+    </br>
+    <form action="{{ url_for('record') }}" method="post">
+        <fieldset>
+            <div class="form-group">
+              <textarea class="W_input" title="input_board" name="input_board" node-type="textEl" pic_split="1" rows="12" cols="80" range="0&amp;0"></textarea>
+            </div>
+            <div class="form-group">
+              <button class="btn btn-default" type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+{% endblock %}

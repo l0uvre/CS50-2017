@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Board
+{% endblock %}
+
+
+{% block main %}
+<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+<style>
+h{
+    font-family: 'Sofia';font-size: 50px;
+}
+</style>
+<h> Moments: your memories  </h>
+{% if diaries %}
+<style>
+.text{
+    font-style: oblique;
+    font-size: 1.875em;
+    background-color:DodgerBlue;
+
+
+}
+.time{
+    font-style: oblique;
+    font-size: 1.875em;
+    color: red;
+    text-align: right;}
+</style>
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+{% for diary in diaries %}
+
+<p class = "text">
+    {{ diary.journal }}
+</p>
+<p class = "time">
+-----{{diary.time}}
+</p>
+{% endfor %}
+{% endif %}
+{% endblock %}
